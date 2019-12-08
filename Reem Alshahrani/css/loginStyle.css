@@ -1,0 +1,78 @@
+
+
+.btn:hover {
+  opacity: 1;
+}
+.form{
+  position:relative;
+  z-index: 1;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  border: 1px solid lightgrey;
+  background-color: #efe3e3;
+}
+
+.login{
+  width: 360px;
+  padding: 10% 0 0;
+  margin: auto;
+}
+.form input{
+  outline: 1;
+  width:100% ;
+  padding:15px ;
+  border: 0;
+  margin: 0 0 15px;
+  box-sizing: border-box;
+}
+
+.form img{
+  padding: 14px;
+}
+.form button {
+  background-color:#697E77;
+  outline: 1;
+  width:100% ;
+  padding:15px ;
+  border: 0;
+  margin: 0 0 15px;
+  box-sizing: border-box;
+  color: white;
+}
+.form a{
+  color: rgb(78, 77, 77);
+  font-size: 10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: right;
+  float: right;
+  padding-top: 1px;
+  padding-bottom: 6px;
+}
+#username , #pass {
+  background-image: url(../img/user1.png);
+  float: right;
+  background-repeat: no-repeat;
+  background-position: 99%;
+  background-size: 18px;
+}
+#pass {
+  background-image: url(../img/pass.png);
+  float: right;
+  background-repeat: no-repeat;
+  background-position: 99%;
+  background-size: 20px;
+}
+#passText ,#emailText{
+  color:red;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#overallText {
+  color:green;
+  font-weight: bold;
+  font-size: 11px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
